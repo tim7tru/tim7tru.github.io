@@ -1,0 +1,230 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Timmy Truong's Webpage
+        </title>
+
+        <link rel="stylesheet" href="webpage.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap/bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">         
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            body, h1, h2, h3, h4, h5, h6 {font-family: "Montserrat", sans-serif;}
+            body, html {
+                height: 100%;
+                color: #777;
+                line-height: 2;
+            }
+
+            .background1 { 
+                background-image: url("./drawable/1.jpg");
+                min-height: 600px;
+            }
+
+            .background2 {
+            	background-image: url("./drawable/toolstech.JPG");
+            	min-height: 600px;
+            }
+
+            .background3 {
+            	background-image: url("./drawable/academic1.JPG");
+            	min-height: 600px;
+            }
+
+            .w3-wide {letter-spacing: 10px;}
+			.w3-hover-opacity {cursor: pointer;}
+
+            @media only screen and (max-device-width: 1600px) {
+                .bgimg-1, .bgimg-2, .bgimg-3 {
+                background-attachment: scroll;
+                min-height: 400px;
+                }
+            }
+        </style>
+        
+    </head>
+
+    <body>
+
+        <div>
+            <div class="w3-bar">
+                <div class="w3-bar" id="navigation-bar">
+                    <!-- <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                            <i class="fa fa-bars"></i>
+                    </a> -->
+                    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+                    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT </a>
+                    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT </a>  
+                    <div class="NameLogo">
+                        <span class="w3-hide-small" id="name-top">TIMMY TRUONG</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="background1 w3-display-container w3-opacity-min" id="home">
+            <div class="display-left" id="welcome-box">
+                <p id="welcome-box-title">WELCOME!</p>
+                <hr id="welcome-box-horizontal-rule">
+                <p id="welcome-box-paragraph">Hi! My name is Timmy Truong. This is a public space where you can learn all about me! I have interests in technology, business, travel, culture, and music. Feel free to reach out to me with any questions or inquiries. Cheers!</p>
+                <div class="abovebottommiddle">
+                    <span>Connect with me!</span>
+                </div>
+                <div class="bottommiddle row">
+                    <a href="https://www.facebook.com/tim7tru" class="btn btn-social-icon btn-facebook column25 spaceIcon" target="_blank"><span class="fa fa-facebook"></span></a>
+                    <a href="http://linkedin.com/in/timtru" class="btn btn-social-icon btn-linkedin column25 spaceIcon" target="_blank"><span class="fa fa-linkedin"></span></a>
+                    <a href="https://www.instagram.com/timmytruong_/" class="btn btn-social-icon btn-instagram column25 spaceIcon" target="_blank"><span class="fa fa-instagram"></span></a>
+                    <a href="https://twitter.com/timmytruong_" class="btn btn-social-icon btn-twitter column25 spaceIcon" target="_blank"><span class="fa fa-twitter"></span></a>
+                    <a href="https://github.com/tim7tru" class="btn btn-social-icon btn-github column25 spaceIcon" target="_blank"><span class="fa fa-github"></span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-content w3-container w3-padding-64" id="about">
+                <h3 class="w3-center">ABOUT ME</h3>
+                <p class="w3-center"><em></em></p>
+                <p>As a first year <b>Systems Design Engineering student</b> at the <b>University of Waterloo</b>, I am blessed with the opportunity to combine practical work experiences with intense theoretical work to create and solve real world problems. As such, my interest in the use of the abstract to better the world is paramount. I am currently exploring different methods in which to do so: currently my focus is in software development, project managemnet, and business.</p>
+                <p>I am currently working for the <b>Canadian Food Inspection Agency</b> as a <b>Mobile Application Developer</b>. In this position, I have been exposed to tools, technologies, and techniques that are widely applicable in the technology industry. I was privileged enough to be able to attend business analysis courses under Algonquin College corporate training providing me with an understanding of business analysis principles and tools in which I have applied almost every day in developing Android applications.</p>
+        </div>
+
+        <div class="background2 w3-display-container w3-opacity-min" id="tools-tech">
+			<div class="w3-display-middle">
+    			<span class="w3-xxlarge w3-text-white w3-wide">TOOLS AND TECH</span>
+  			</div>        
+  		</div>
+
+  		<div class="w3-content w3-container w3-padding-64" id="tools-and-tech">
+  			<h3 class="w3-center">EXPERIENCE IN...</h3>
+  			<p class="w3-center"><a href="http://github.com/tim7tru"><b>Click Here For My Github</b></a></p>
+
+			<div class="row">
+				<div class="column33">
+					<h4 class="column-header">PROGRAMMING</h4>
+					<ul class="column-list33">
+						<li>Java</li>
+						<li>HTML/CSS</li>
+						<li>JavaScript</li>
+						<li>XML</li>
+						<li>C++</li>
+						<li>SQL</li>
+						<li>Kotlin</li>
+					</ul>
+				</div>
+			    <div class="column33">
+			    	<h4 class="column-header">DATABASES</h4>
+			    	<ul class="column-list33">
+			    		<li>PostgreSQL</li>
+			    		<li>Firebase Realtime</li>
+                        <li>SQLite</li>
+			    		<li>Parse Server</li>
+			    	</ul>
+			    </div>
+		  	    <div class="column33">
+		  	    	<h4 class="column-header">BUSINESS</h4>
+		  	    	<ul class="column-list33">
+		  	    		<li>Process Mapping (BPMN)</li>
+                        <li>Agile/Scrum</li>
+		  	    		<li>Process Context Diagrams</li>
+		  	    		<li>Requirement Gathering & Analysis</li>
+		  	    	</ul>
+		  	    </div>
+            </div>
+            <div class="row">
+                <div class="column33">
+                    <h4 class="column-header easter">easter</h4>
+                    <ul class="column-list33">
+                        <li>Jira</li>
+                        <li>Confluence</li>
+                        <li>BitBucket</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="column33">
+                    <h4 class="column-header">TOOLS</h4>
+                    <ul class="column-list33">
+                        <li>Node.js</li>
+                        <li>Git</li>
+                        <li>Object-Relational Mapping</li>
+                        <li>Express.js</li>
+                    </ul>
+                </div>
+                <div class="column33">
+                    <h4 class="column-header easter">egg</h4>
+                    <ul class="column-list33">
+                        <li>RESTful API</li>
+                        <li>GitHub</li>
+                        <li>Retrofit/Volley</li>
+                        <li>Various Android APIs</li>
+
+                    </ul>
+                </div>
+            </div>
+ 		</div>
+
+ 		<div class="background3 w3-display-container w3-opacity-min" id="school"> 
+ 			<div class="w3-display-middle"> 
+ 				<span class="w3-xxlarge w3-text-white w3-wide">ACADEMICS</span>
+ 			</div>	
+ 		</div>
+
+        <div class="w3-content w3-container w3-padding-64" id="academics">
+            <h3 class="w3-center">INSTITUTIONS</h3>
+
+            <div class="row">
+                <div class="column33">
+                    <div class="columnImage w3-center">
+                        <a href="https://sjo.schools.smcdsb.on.ca/"><img src="./drawable/SJOnew.png"></a>
+                    </div>
+                    <h4 class="column-header">St. Joseph's Catholic High School</h4>
+                    <h5>Extracurriculars:</h5>
+                    <ul>
+                        <li>Rowing (4Yrs)</li>
+                        <li>Soccer (4Yrs)</li>
+                        <li>Concert Band (3Yrs)</li>
+                        <li>Jazz Band (3Yrs)</li>
+                        <li>Cross Country (3Yrs)</li>
+                        <li>Track & Field (2Yrs)</li>
+                        <li>Alpine Skiing (1Yrs)</li>
+                    </ul>
+                </div>
+          
+                <div class="column33">
+                    <div class="columnImage w3-center">
+                        <a href="https://www.algonquincollege.com/corporate/"><img src="./drawable/acnew.png" height=230px></a>                        
+                    </div>
+
+                    <h4 class="column-header">Algonquin College (Corporate Training)</h4>
+                    <h5>Courses:</h5>
+                    <ul>
+                        <li>BAE1: Intro. to Business Analysis</li>
+                        <li>BAE4: Modelling Business Processes and Workflows</li>
+                    
+                    </ul>
+                </div>
+
+                <div class="column33">
+                    <div class="columnImage w3-center">
+                        <a href="https://uwaterloo.ca/"><img src="./drawable/uwaterloo-shield.svg" height=220px></a>
+                    </div>
+                    <h4 class="column-header">University of Waterloo (Undergraduate)</p>
+                    <h5>Degree:</h5>
+                    <ul>
+                        <li>Honours Bachelor of Applied Science (B.A.Sc.) in Systems Design Engineering</li>
+                        <li>Expected May 2023</li>
+                     </ul>
+                    <h5>Courses:</h5>
+                    <ul>
+                        <li>SYDE121: Digital Computation (C++)</li>
+                        <li>SYDE161: Intro. to Design</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+#name-top {
+    color: #000000;
+    padding:4px 12px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 125%;
+    width:auto;
+    border:none;
+    display: block;
+    outline:0;
+    letter-spacing: 1em;
+    z-index: 0;
+}
+
+.NameLogo {
+    position:absolute;
+    height: auto;
+    width: auto;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+}
+
+.background1, .background2, .background3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.display-left{
+    position:absolute;
+    top:50%;
+    left:2%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(-0%,-50%)
+}
+
+.column33 {
+  float: left;
+  width: 33.33%;
+  line-height: 1.8;
+}
+
+.column25 {
+  float: left;
+  width: 20%;
+  line-height: 1.8;
+}
+
+.column-header {
+    text-align: center;
+}
+
+.column-list33 {
+    margin-left: 20%;
+}
+
+.easter {
+    color: transparent;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.spaceIcon {
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#welcome-box {
+    height: 550px;
+    width: 400px;
+    background-color:black;
+}
+
+.socialBox {
+    width:auto;
+    height: auto;
+    text-align: center;
+}
+
+.bottommiddle {
+    position:absolute;
+    left:50%;
+    bottom:2%;
+    transform:translate(-50%,0%);
+    -ms-transform:translate(-50%,0%)
+}
+
+.abovebottommiddle {
+    color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, 0%);
+    -ms-transform:translate(-50%,0%)
+}
+
+.columnImage {
+    width: 100%;
+    height: width;
+}
+
+#welcome-box-title {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    width: auto;
+    text-align: center;
+    line-height: 0.5;
+}
+
+#welcome-box-paragraph {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#welcome-box-horizontal-rule {
+    margin: 0px 15px;
+}
